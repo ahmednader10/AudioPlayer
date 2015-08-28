@@ -1,0 +1,42 @@
+
+Exercise 1 :
+How to run the program :
+1) When the audio.java class is executed a JFileChooser appears which allows the user to browse for any file on the computer, A .Wav File should be chosen and then the user should press open.
+2) A GUI window will appear then the user have to press play to run the chosen .WAV audio file.
+3) To resume the audio after clicking pause or mute, the user should click on play button.
+
+Libraries Used :
+java.awt.event.MouseEvent;
+java.awt.event.MouseListener;
+java.io.File;
+
+java.io.IOException;
+
+
+javax.sound.sampled.AudioInputStream;
+javax.sound.sampled.AudioSystem;
+javax.sound.sampled.BooleanControl;
+javax.sound.sampled.Clip;
+
+javax.sound.sampled.Line;
+
+
+javax.sound.sampled.LineUnavailableException;
+
+javax.sound.sampled.UnsupportedAudioFileException;
+javax.swing.JButton;
+javax.swing.JFileChooser;
+javax.swing.JFrame;
+javax.swing.filechooser.FileNameExtensionFilter;
+
+Exercise 2 :
+How to run the program :
+1) After executing Exercise2.java class, the user should input in the console either 1 to transform from RGB to HSV or 2 to transform from HSV to RGB.
+2) Then the user should enter each value for the chosen color format consecutively, ex : if the user typed 1,
+Then a message having please enter the value of R will appear, after which the user has to enter value for R,G,B consecutively in the range from [0,255].
+3) If the user chose 2, then input values for HSV should be inserted where H has to be from [0,360[ and both S and V have to be in percentage.
+
+Libraries used :
+java.io.BufferedReader;
+java.io.IOException;
+java.io.InputStreamReader;
